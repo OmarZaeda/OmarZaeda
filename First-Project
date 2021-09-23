@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link rel="stylesheet" href="Project one.css">
+    <style>body{
+        background-color: #112e51;
+        color: white;
+        }
+        img {
+            width: 150px;
+            padding: 90px;
+            margin: -10px;
+        
+        }
+        .contain{
+            display: flex;
+            
+            justify-content: space-around;
+        }
+        li{
+            color: white;
+            list-style: none;
+            padding: 7px;
+            color: white;
+            min-width: 80px;
+            max-width: 300px;
+            margin: 7px;
+            font-family: sans-serif;
+        }
+        .head{
+            font-weight: bold;
+        }
+        p{
+            padding: 10px;
+        }
+        i{
+            padding: 8px;
+        }
+        
+        </style>
+</head>
+<body>
+    <img src="https://codepip.com/wp-content/plugins/codepip/images/logotype.svg" alt="">
+    <div class="contain">
+        
+    <ul>
+        <li class="head">CODEPIP</li>
+        <li class="li1"> About Us</li>
+        <li class="li2 ">Blog</li>
+        <li class="li3">Pricing</li>
+        <li class="li4">Curriculum</li>
+        <li class="li5">Press</li>
+    </ul>
+    <ul>
+        <li class="head">FEATURES</li>
+        <li class="li6">Games</li>
+        <li class="li7">Individual Plans</li>
+        <li class="li8">Group Plans</li>
+        <li class="li9">Classroom</li>
+    </ul>
+    <ul>
+        <li class="head">SUPPORT</li>
+        <li class="li10">FAQ</li>
+        <li class="li11">Contact Us</li>
+        <li class="li12">Privacy Policy</li>
+        <li class="li13">Terms of Service</li>
+    </ul>
+    <ul>
+
+        <li class="head">FOLLOW</li>
+        <li class="li14"> <i class="fab fa-twitter"></i> Twitter</li>
+        <li class="li15"> <i class="fab fa-facebook"></i>Facebook</li>
+        <li class="li16" ><i class="fab fa-instagram"></i> Instgram</li>
+        <li class="li17"><i class="fab fa-linkedin"></i>Linkdln</li>
+        <li class="li18"><i class="fab fa-youtube"></i>YouTube</li>
+        <li class="li19"><i class="fas fa-rss"></i>RSS</li>
+
+    </ul>
+    <ul>
+        <li class="head">LATEST</li>
+        <li class="li23">Organize emoji with Disarray, a coding game about JavaScript array methods</li>
+        <li class="li20">Dig deep about the :nth-child() selector with our newest CSS game, Nth Cart</li>
+        <li class="li21">Announcing Selector Showdown: A game for learning about CSS selector specificity</li>
+        <li class="li22">Making the most of web coding games</li>
+        
+</ul>
+    
+    </div>
+    <p>© 2021 Codepip. All rights reserved.</p>
+</body>
+</html>
